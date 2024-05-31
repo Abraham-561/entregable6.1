@@ -1,0 +1,53 @@
+
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.card {
+   
+    
+    width: 100%;
+    max-width: 250px;
+    border-radius: .8em;
+    overflow: hidden;
+    box-shadow: .5em .5em 1em #0005;
+   
+    
+}
+
+.card_header, .card_img {
+    width: 100%;
+  height: 200px;
+  object-fit: cover;
+  
+}
+.card_info {
+    padding: 20px;
+}
+.card_name {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+}
+.card_rating , .card_city, .card_price {
+    margin-top: 10px;
+    color: #888;
+}
+
+.card_footer, .card_btn {
+    background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+}
+
+.card_footer, .card_btn:hover {
+    background-color: #0056b3;
+}
